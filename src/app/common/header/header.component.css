@@ -1,0 +1,25 @@
+.navbar{
+    position:sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    /* box-shadow: 5px 5px 20px rgba(0,0,0,.5); */
+    background-color: #293843;
+}
+.collapse{
+    background-color: #293843;
+
+}
+.nav-item a:hover{
+    color: #fff !important;
+    border-bottom: 2px solid green;
+}
+.color{
+    background-color: #293843;
+    text-align: center;
+    width: auto;
+  
+}
+.color .nav-item a:hover{
+    border-bottom: none;
+}

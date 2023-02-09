@@ -36,7 +36,7 @@ import { ServiceComponent } from './service/service.component';
     CoffeeComponent,
     LoungeComponent,
     RoomsComponent,
-    ServiceComponent
+    ServiceComponent,
   ],
   imports: [
     BrowserModule,

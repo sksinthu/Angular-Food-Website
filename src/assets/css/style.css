@@ -257,7 +257,8 @@ text-align: right;;
 
 
 .inner_header{
-	background-image: url('../images/inner_header.jpg');
+    background: linear-gradient(to right, #ea1d6f,#eb466b 100%);
+	/* background-image: url('../images/inner_header.jpg'); */
 	height: 160px;
 }
 
