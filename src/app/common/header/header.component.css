@@ -23,3 +23,15 @@
 .color .nav-item a:hover{
     border-bottom: none;
 }
+.dropdown-menu a:hover{
+         color:black !important;
+         
+}
+.dropdown-menu{
+    background-color: #293843 ;
+
+}
+.dropdown-menu a{
+    color: aliceblue !important;
+
+}
