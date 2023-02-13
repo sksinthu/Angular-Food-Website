@@ -11,6 +11,8 @@ import { CoffeeComponent } from './services/coffee/coffee.component';
 import { WeddingComponent } from './services/wedding/wedding.component';
 import { RoomsComponent } from './services/rooms/rooms.component';
 import { ServiceComponent } from './service/service.component';
+import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
 
 const routes: Routes = [
   {path:'',component:HomeComponent},
@@ -19,6 +21,8 @@ const routes: Routes = [
   {path:'travel',component:TravelComponent},
   {path:'contact',component:ContactComponent},
   {path:'service',component:ServiceComponent},
+  {path:'login',component:LoginComponent},
+  {path:'register',component:RegisterComponent},
 
   {path:'services',
   children:[

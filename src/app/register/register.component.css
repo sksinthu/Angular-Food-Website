@@ -1,0 +1,29 @@
+.form-control {
+  width: 450px;
+}
+.btn {
+  width: 436px;
+}
+.cart {
+  border: none;
+  background-color: #3f3f48;
+  width: 500px;
+  height: 503px;
+  padding: 30px;
+  position: absolute;
+
+  transform: translate(62%, 3%);
+}
+@media only screen and (max-width: 678px) {
+  .cart {
+    transform: translate(2%, 3%);
+    width: 353px;
+    height: 503px;
+  }
+  .form-control {
+    width: 300px;
+  }
+  .btn {
+    width: 297px;
+  }
+}

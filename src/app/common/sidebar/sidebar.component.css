@@ -1,7 +1,10 @@
 .main {
     background-color: #e5e5e5e5;
-    width: 330px;
+    width: 298px;
     box-shadow: 15px 20px 15px  rgba(0,0,0,.2),
                  inset 4px 4px 10px white;
                  border: none;
+}
+.sidebar_heading{
+    width: 298px;
 }

@@ -39,3 +39,32 @@ section{
     color: aliceblue !important;
     box-shadow: 2px 4px 5px rgba(0,0,0,.3);
 }
+
+@media only screen and (max-width: 768px) { 
+    /* Here are some changes*/
+    .signin{
+   
+        background-color: rgb(28, 17, 11) !important;
+        color: aliceblue !important;
+        box-shadow: 2px 4px 5px rgba(0,0,0,.3);
+    }
+    .Home{
+        background-image:linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.4)), url('../../assets/images/concept-tasty-food-with-chicken-tikka-wooden-background_185193-63820.jpg');
+        background-size: cover;
+        background-position: center;
+    
+    }
+    .Home h1{
+        color: rgb(209, 19, 180);
+        font-size: 100px;
+        letter-spacing: 3px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-shadow: 0px 1px 0px #ccc,
+                     0px 2px 0px #ccc,
+                     0px 3px 0px #ccc,
+                     0px 4px 0px #ccc,
+                     0px 5px 0px #ccc,
+                     0px 6px 0px #ccc,
+                     0px 7px 0px #ccc;
+    }
+}

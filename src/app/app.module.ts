@@ -18,6 +18,10 @@ import { CoffeeComponent } from './services/coffee/coffee.component';
 import { LoungeComponent } from './services/lounge/lounge.component';
 import { RoomsComponent } from './services/rooms/rooms.component';
 import { ServiceComponent } from './service/service.component';
+import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import {HttpClientModule} from '@angular/common/http'
 
 @NgModule({
   declarations: [
@@ -37,10 +41,16 @@ import { ServiceComponent } from './service/service.component';
     LoungeComponent,
     RoomsComponent,
     ServiceComponent,
+    LoginComponent,
+    RegisterComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule,
+    HttpClientModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
